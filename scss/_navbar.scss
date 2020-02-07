@@ -5,11 +5,15 @@
   @include transition-all;
   @include heading-font;
   .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
     @include heading-font;
+    font-weight: 700;
     &:hover,
     &:focus {
-      color: darken($theme-primary, 10%);
+      // color: darken($theme-primary, 10%);
+    }
+
+    img{
+      width: 20px;
     }
   }
   .navbar-toggler {
@@ -32,9 +36,9 @@
       }
       > a,
       > a:focus {
-        color: $gray-darker;
+        // color: $gray-darker;
         &:hover {
-          color: $theme-primary;
+          // color: $theme-primary;
         }
       }
     }
@@ -43,17 +47,17 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: fade(white, 70%);
+      // color: fade(white, 70%);
       &:hover,
       &:focus {
-        color: white;
+        // color: white;
       }
     }
     .navbar-nav > li > a,
     .navbar-nav > li > a:focus {
-      color: fade-out(white, 0.3);
+      // color: fade-out(white, 0.3);
       &:hover {
-        color: white;
+        // color: white;
       }
     }
     &.navbar-shrink {
