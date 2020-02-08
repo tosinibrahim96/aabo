@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #fff;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #e6e6e6;
 }
 
 hr {
@@ -174,39 +174,40 @@ header.masthead .device-container .screen img {
   }
 }
 
-section.download {
-  background-color: #f0f0f0;
-  position: relative;
-  padding: 150px 0;
+.emergency {
+  font-weight: 700;
 }
 
-section.download h2 {
-  font-size: 50px;
-  margin-top: 0;
+.follow-us {
+  margin-top: 50px;
 }
 
-section.download .badges .badge-link {
+.badges {
+  margin-top: 20px;
+}
+
+.badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
 
-section.download .badges .badge-link:last-child {
+.badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-section.download .badges .badge-link img {
+.badges .badge-link img {
   height: 60px;
 }
 
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  section.download h2 {
+  h2 {
     font-size: 70px;
   }
 }
@@ -390,14 +391,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline {
   color: white;
-  border: 1px solid;
-  border-color: white;
+  border-color: #212529;
+  background-color: #212529;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
-  border-color: #212529;
-  background-color: #212529;
+  background-color: white;
+  border: 1px solid #212529;
 }
 
 .btn {
@@ -414,6 +414,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .text-white {
   color: #ffffffe0 !important;
+  text-align: center;
 }
 
 hr {

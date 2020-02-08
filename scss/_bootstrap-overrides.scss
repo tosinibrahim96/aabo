@@ -19,15 +19,15 @@
 
 .btn-outline {
   color: white;
-  border: 1px solid;
-  border-color: white;
+  border-color: #212529;
+  background-color: #212529;
+
   &:hover,
   &:focus,
   &:active,
   &.active {
-    color: white;
-    border-color: #212529;
-    background-color: #212529;
+    background-color: white;
+    border: 1px solid #212529;
   }
 }
 
@@ -43,6 +43,7 @@
 
 .text-white {
   color: #ffffffe0 !important;
+  text-align: center;
 }
 
 hr {
